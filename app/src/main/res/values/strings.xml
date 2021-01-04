@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Materi2020</string>
+    <string name="title_activity_scrolling">Tentang Siti Amelia</string>
+    <string name="large_text">
+        "ini adalah data diri saya\n\n"
+
+            Hallo Perkenalkan Saya Siti Amelia biasa dipanggil dengan nama akrab amel, Lahir di Bogor tahun 2000 dan kini umur saya 20 tahun.
+            Saya anak ketiga dari empat bersaudara, yang memiliki satu kakak perempuan, satu kakak laki-laki dan satu adik perempuan.
+        Saya lahir di keluarga yang sangat sederhana, Bapak saya seorang karyawan swasta sedangkan ibu saya seorang ibu rumah tangga.
+        Pendidikan terakhir saya di MA Daarul Mughni dan kini sedang melanjutkan ke jenjang S1 jurusan Sistem Informasi.
+    </string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

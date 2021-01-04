@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context="com.mercusuar.materi2020.MenuProgram">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="Menu Program Materi Android"
+        android:textColor="#ff000080"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textview"
+        android:text="STMIK MERCUSUAR"
+        android:layout_marginTop="80dp"
+        android:textColor="#ff000080"
+        android:textSize="25dp"
+        tools:ignore="UnknownId" />
+`
+    <Button
+        android:id="@+id/btnProg1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="200dp"
+        android:linksClickable="true"
+        android:drawableBottom="@drawable/datadiri"
+        android:background="@drawable/kotak_email"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Diri"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:textColor="#ff000080"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:id="@+id/btnProg2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp"
+        android:linksClickable="true"
+        android:drawableBottom="@drawable/webview"
+        android:background="@drawable/kotak_email" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WebView"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:textColor="#ff000080"
+        android:layout_marginLeft="260dp" />
+
+    <Button
+        android:id="@+id/btnProg3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="350dp"
+        android:linksClickable="true"
+        android:drawableBottom="@drawable/kalkulator"
+        android:background="@drawable/kotak_email"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"
+        android:layout_marginTop="446dp"
+        android:textSize="20dp"
+        android:textColor="#ff000080"
+        android:layout_marginLeft="55dp" />
+    <Button
+        android:id="@+id/btnProg4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="350dp"
+        android:linksClickable="true"
+        android:drawableBottom="@drawable/sosmed"
+        android:background="@drawable/kotak_email"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sosmed"
+        android:layout_marginTop="446dp"
+        android:textSize="20dp"
+        android:textColor="#ff000080"
+        android:layout_marginLeft="265dp" />
+    <Button
+        android:id="@+id/btnProg5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="500dp"
+        android:linksClickable="true"
+        android:drawableBottom="@drawable/cv"
+        android:background="@drawable/kotak_email"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CV"
+        android:layout_marginTop="600dp"
+        android:textSize="20dp"
+        android:textColor="#ff000080"
+        android:layout_marginLeft="80dp" />
+    <Button
+        android:id="@+id/btnProg6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="500dp"
+        android:linksClickable="true"
+        android:drawableBottom="@drawable/persegii"
+        android:background="@drawable/kotak_email"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Persegi Panjang"
+        android:layout_marginTop="600dp"
+        android:textSize="20dp"
+        android:textColor="#ff000080"
+        android:layout_marginLeft="230dp" />
+
+
+</RelativeLayout>
